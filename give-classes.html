@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="./styles/partials/forms.css">
   <link rel="stylesheet" href="./styles/partials/header.css">
   <link rel="stylesheet" type="text/css" href="./styles/partials/page-give-classes.css">
+  <script src="./scripts/AddField.js" defer></script>
 </head>
 <body id="page-give-classes">
   <div id="container">
@@ -86,33 +87,10 @@
         <fieldset id="schedule-items">
           <legend>
             Horários disponíveis
-            <button id="add-time">+ Novo Horário</button>
+            <button type="button" id="add-time">+ Novo Horário</button>
+            <!-- <button type="button" id="remove-time">- Tirar Horário</button> -->
           </legend>
 
-          <div class="schedule-item">
-            <div class="select-block">
-              <label for="weekday">Dia da semana</label>
-              <select name="weekday[]" id="weekday" required>
-                <option value="">Selecione um dia da semana</option>
-                <option value="0">Domingo</option>
-                <option value="1">Segunda-feira</option>
-                <option value="2">Terça-feira</option>
-                <option value="3">Quarta-feira</option>
-                <option value="4">Quinta-feira</option>
-                <option value="5">Sexta-feira</option>
-                <option value="6">Sábado</option>
-              </select>
-            </div>
-
-            <div class="input-block">
-              <label for="time_from">Das</label>
-              <input type="time" id="time_from" name="time_from[]" required>
-            </div>
-            <div class="input-block">
-              <label for="time_to">Até</label>
-              <input type="time" id="time_to" name="time_to[]" required>
-            </div>
-          </div>
           <div class="schedule-item">
             <div class="select-block">
               <label for="weekday">Dia da semana</label>

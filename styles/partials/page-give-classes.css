@@ -38,7 +38,6 @@
   background: none;
   border: 0;
   
-  color: var(--color-primary);
 
   font: 700 1.6rem Archivo;
   cursor: pointer;
@@ -50,6 +49,26 @@
   transform: translateY(-5px);
   color: var(--color-primary-dark);
 }
+
+#page-give-classes fieldset legend #add-time{
+  color: var(--color-primary);
+}
+
+#page-give-classes fieldset legend #add-time:hover{
+  text-shadow: 1px 1px 3px rgba(0, 255, 0, 0.8);
+}
+
+/* ==================== tirar horário ==================== */
+
+/* #page-give-classes fieldset legend #remove-time{
+  color: rgb(255, 55, 55);
+}
+
+#page-give-classes fieldset legend #remove-time:hover{
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+} */
+
+/* ======================================================= */
 
 #page-give-classes fieldset+fieldset{
   margin-top: 6.4rem;
@@ -132,6 +151,7 @@
     padding-top: 0;
   }
   #page-give-classes main footer{
+    margin-top: 24px; /* default se tirar: 64px (main footer) */
     padding: 40px 64px;
     display: flex;
     align-items: center;
