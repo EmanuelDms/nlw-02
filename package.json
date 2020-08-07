@@ -1,0 +1,23 @@
+{
+  "name": "nlw-02",
+  "version": "1.0.0",
+  "description": "Proffy - Plataforma de estudos online.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmanuelDms/nlw-02.git"
+  },
+  "keywords": [],
+  "author": "EmanuelDms",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmanuelDms/nlw-02/issues"
+  },
+  "homepage": "https://github.com/EmanuelDms/nlw-02#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
