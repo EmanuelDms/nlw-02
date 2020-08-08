@@ -8,15 +8,7 @@ const proffys = [
     bio: "Entusiasta das melhores tecnologias de Front-end.<br><br>Apaixonado por construir coisas coloridas através textos coloridos que nem todo mundo entende =P. Ensina sobre os conceitos de CSS Flex, CSS Grid e Layouts de Páginas Web.", 
     subject: "Desenvolvedor Web: Front-end", 
     cost: "20", 
-    weekday: [
-      0/*,
-       1,
-      2,
-      3,
-      4,
-      5,
-      6, */
-    ], 
+    weekday: [0], 
     time_from: [70], 
     time_to: [1220]
   },
@@ -27,15 +19,7 @@ const proffys = [
     bio: "Entusiasta das melhores tecnologias de back-end.<br><br>Descomplicando o complicado! Ensina o uso de requisições assíncronas, manipulação de banco de dados e de lógicas por trás da página, utilizando PHP e JavaScript.", 
     subject: "Desenvolvedor Web: Back-end", 
     cost: "30", 
-    weekday: [
-      1/*,
-       1,
-      2,
-      3,
-      4,
-      5,
-      6, */
-    ], 
+    weekday: [1], 
     time_from: [70], 
     time_to: [1220]
   },
@@ -46,15 +30,7 @@ const proffys = [
     bio: "Entusiasta das melhores tecnologias de back-end.<br><br>Descomplicando o complicado! Ensina o uso de requisições assíncronas, manipulação de banco de dados e de lógicas por trás da página, utilizando PHP e JavaScript.", 
     subject: "Desenvolvedor Web: Back-end", 
     cost: "30", 
-    weekday: [
-      1/*,
-       1,
-      2,
-      3,
-      4,
-      5,
-      6, */
-    ], 
+    weekday: [1], 
     time_from: [70], 
     time_to: [1220]
   }
