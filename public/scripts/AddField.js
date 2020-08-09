@@ -5,7 +5,22 @@
 4. Imprime na tela
 */
 
+// Contagem de quantos schedule items possui no fieldset
+const recentlyField = document.getElementsByClassName('schedule-item');
+let length = recentlyField.length;
+
+// Cria botão que tira schedule-item
+
 cloneField = () =>{
+  if (length < 2 && !tirarButton) {
+    let tirarButtonCondicional = document.createElement('button');
+    tirarButtonCondicional.setAttribute('type', 'button');
+    tirarButtonCondicional.setAttribute('id', 'remove-time');
+
+    let text = document.createTextNode('- Tirar Horário');
+    tirarButtonCondicional.appendChild(text);
+    document.querySelector('#schedule-items legend').appendChild(tirarButtonCondicional)
+  }
   // Clona o schedule item
   const newFieldContainer = document.querySelector('.schedule-item').cloneNode(true);
   
@@ -24,31 +39,15 @@ cloneField = () =>{
 document.querySelector('#add-time').addEventListener('click', cloneField);
 
 // ==================== tirar horário ====================
-/* removeField = () =>{
-  const recentlyField = document.getElementsByClassName('schedule-item');
-  let lenght = recentlyField.length;
-
+removeField = () =>{
+  if (length == 2) {
+    document.querySelector('#schedule-items legend').removeChild(tirarButton)
+  }
   let fieldset = document.querySelector('#schedule-items');
-  fieldset.removeChild(recentlyField[lenght-1]);
-  
-} */
-/* let tirarButton = document.querySelector('#remove-time');
-const recentlyField = document.getElementsByClassName('schedule-item').length;
-console.log(recentlyField)
-if (recentlyField >= 2) {
-  let tirarButton = document.createElement('button');
+  fieldset.removeChild(recentlyField[length-1]);
+}
 
-  tirarButton.setAttribute('type', 'button');
-  tirarButton.setAttribute('id', 'remove-time');
-
-  let text = document.createTextNode('- Tirar Horário');
-  tirarButton.appendChild(text);
-
-  document.querySelector('#schedule-items legend').appendChild(tirarButton)
-}else{
-  document.querySelector('#schedule-items legend').removeChild(tirarButton)
-} */
-
-// tirarButton.addEventListener('click', removeField);
+let tirarButton = document.querySelector('#remove-time');
+tirarButton.addEventListener('click', removeField);
 
 // =======================================================

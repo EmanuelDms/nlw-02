@@ -60,13 +60,14 @@
 
 /* ==================== tirar horário ==================== */
 
-/* #page-give-classes fieldset legend #remove-time{
+#page-give-classes fieldset #remove-time{
   color: rgb(255, 55, 55);
+  /* position: absolute; */
 }
 
-#page-give-classes fieldset legend #remove-time:hover{
+#page-give-classes fieldset #remove-time:hover{
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
-} */
+}
 
 /* ======================================================= */
 
@@ -143,13 +144,20 @@
   }
   .schedule-item{
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
     column-gap: 1.6rem;
   }
   #page-give-classes #schedule-items .select-block+.input-block,
     #page-give-classes #schedule-items .input-block+.input-block {
     padding-top: 0;
   }
+  #page-give-classes fieldset #remove-time-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3.2rem;
+  }
+  
   #page-give-classes main footer{
     margin-top: 24px; /* default se tirar: 64px (main footer) */
     padding: 40px 64px;
