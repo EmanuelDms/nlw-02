@@ -23,7 +23,7 @@ server
 .get('/', pageLanding)
 .get('/study', pageStudy)
 .get('/give-classes', pageGiveClasses)
-.post('/give-classes', saveClass)
+.post('/save-class', saveClass)
 
 // start do servidor
 .listen(5500); 
