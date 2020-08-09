@@ -91,6 +91,9 @@
   :root{
     font-size: 40%; /* todo 1rem */
   }
+  .hero-image{
+    height: 45rem;
+  }
 }
 
 

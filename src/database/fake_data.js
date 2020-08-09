@@ -3,11 +3,11 @@
 const proffys = [
   {
     name: "Emanuel Maia", 
-    avatar:  "./images/user1.jpeg", 
+    avatar:  "https://avatars2.githubusercontent.com/u/61608503?s=460&u=d68ccb01f39f2a2b7aa19381b71b0d3f305406f4&v=4", 
     whatsapp: "84979250080", 
-    bio: "Entusiasta das melhores tecnologias de Front-end.<br><br>Apaixonado por construir coisas coloridas através textos coloridos que nem todo mundo entende =P. Ensina sobre os conceitos de CSS Flex, CSS Grid e Layouts de Páginas Web.", 
-    subject: "Desenvolvedor Web: Front-end", 
-    cost: "20", 
+    bio: "O carismático, esplêndido e mágico da Física. Reza a lenda que já fez a maçã de Newton voar, além de provar o terraplanismo.", 
+    subject: "Física", 
+    cost: "30", 
     weekday: [0], 
     time_from: [70], 
     time_to: [1220]
