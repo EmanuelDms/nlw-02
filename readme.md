@@ -11,7 +11,7 @@ Projeto da Trilha Discovery desenvolvido durante a Next Level Week #02, pela [Ro
  <a href="#-layout">Layout</a>&nbsp;&nbsp;•&nbsp;
  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;•&nbsp;
  <a href="#information_source-instalação">Instalação</a>&nbsp;&nbsp;•&nbsp;
- <a href="#-contributing">Contribua</a>
+ <a href="#-contribuindo">Contribua</a>
 </p>
 
 <hr>
