@@ -11,7 +11,7 @@ Projeto da Trilha Discovery desenvolvido durante a Next Level Week #02, pela [Ro
  <a href="#-layout">Layout</a>&nbsp;&nbsp;•&nbsp;
  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;•&nbsp;
  <a href="#information_source-instalação">Instalação</a>&nbsp;&nbsp;•&nbsp;
- <a href="#-contribuindo">Contribua</a>
+ <a href="z#-contribuindo">Contribua</a>
 </p>
 
 <hr>
@@ -62,6 +62,9 @@ $ cd nlw-02/
 
 # Install dependencies
 $ npm install
+
+# Create database
+$ node src/database/db.js
 
 # Run (http://127.0.0.1:5500/)
 $ npm run dev
