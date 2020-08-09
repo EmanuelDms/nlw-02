@@ -1,1 +1,55 @@
-<svg height="512pt" viewBox="0 0 512 512" width="512pt" xmlns="http://www.w3.org/2000/svg"><path d="m256 0c-141.164062 0-256 114.835938-256 256s114.835938 256 256 256 256-114.835938 256-256-114.835938-256-256-256zm0 0" fill="#f44336"/><path d="m350.273438 320.105469c8.339843 8.34375 8.339843 21.824219 0 30.167969-4.160157 4.160156-9.621094 6.25-15.085938 6.25-5.460938 0-10.921875-2.089844-15.082031-6.25l-64.105469-64.109376-64.105469 64.109376c-4.160156 4.160156-9.621093 6.25-15.082031 6.25-5.464844 0-10.925781-2.089844-15.085938-6.25-8.339843-8.34375-8.339843-21.824219 0-30.167969l64.109376-64.105469-64.109376-64.105469c-8.339843-8.34375-8.339843-21.824219 0-30.167969 8.34375-8.339843 21.824219-8.339843 30.167969 0l64.105469 64.109376 64.105469-64.109376c8.34375-8.339843 21.824219-8.339843 30.167969 0 8.339843 8.34375 8.339843 21.824219 0 30.167969l-64.109376 64.105469zm0 0" fill="#fafafa"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="criss-cross.svg"
+   id="svg684"
+   version="1.1"
+   width="512pt"
+   viewBox="0 0 512 512"
+   height="512pt">
+  <metadata
+     id="metadata690">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs688" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg684"
+     inkscape:window-maximized="0"
+     inkscape:window-y="23"
+     inkscape:window-x="26"
+     inkscape:cy="539.51409"
+     inkscape:cx="633.31528"
+     inkscape:zoom="0.41121298"
+     showgrid="false"
+     id="namedview686"
+     inkscape:window-height="991"
+     inkscape:window-width="1530"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <path
+     transform="scale(0.74999998)"
+     d="M 341.33398 0 C 153.11523 0 0 153.11523 0 341.33398 C 0 529.55274 153.11523 682.66602 341.33398 682.66602 C 529.55274 682.66602 682.66602 529.55274 682.66602 341.33398 C 682.66602 153.11523 529.55274 0 341.33398 0 z M 235.74805 207.29492 C 243.02279 207.29492 250.29687 210.07487 255.85938 215.63477 L 341.33398 301.11523 L 426.80664 215.63477 C 437.93164 204.51497 455.90625 204.51497 467.03125 215.63477 C 478.15104 226.75977 478.15104 244.73437 467.03125 255.85938 L 381.55273 341.33398 L 467.03125 426.80664 C 478.15104 437.93164 478.15104 455.90625 467.03125 467.03125 C 461.48437 472.57812 454.20247 475.36523 446.91602 475.36523 C 439.63476 475.36523 432.35352 472.57812 426.80664 467.03125 L 341.33398 381.55273 L 255.85938 467.03125 C 250.3125 472.57812 243.03125 475.36523 235.75 475.36523 C 228.46354 475.36523 221.18164 472.57812 215.63477 467.03125 C 204.51497 455.90625 204.51497 437.93164 215.63477 426.80664 L 301.11523 341.33398 L 215.63477 255.85938 C 204.51497 244.73437 204.51497 226.75977 215.63477 215.63477 C 221.19727 210.07487 228.47331 207.29492 235.74805 207.29492 z "
+     style="stroke-width:1.33333;fill:#ff005d;fill-opacity:1"
+     id="path680" />
+</svg>

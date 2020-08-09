@@ -34,24 +34,21 @@
   border-bottom: 1px solid var(--color-line-in-white);
 }
 
-#page-give-classes fieldset legend button{
+#page-give-classes fieldset button{
   background: none;
   border: 0;
-  
 
   font: 700 1.6rem Archivo;
   cursor: pointer;
   transition: 0.2s;
 }
 
-#page-give-classes fieldset legend button:hover{
-  text-shadow: 1px 1px 3px rgba(0, 255, 0, 0.8);
+#page-give-classes fieldset button:hover{
   transform: translateY(-5px);
-  color: var(--color-primary-dark);
 }
 
 #page-give-classes fieldset legend #add-time{
-  color: var(--color-primary);
+  color: var(--color-primary-dark);
 }
 
 #page-give-classes fieldset legend #add-time:hover{
@@ -61,12 +58,21 @@
 /* ==================== tirar horário ==================== */
 
 #page-give-classes fieldset #remove-time{
-  color: rgb(255, 55, 55);
-  /* position: absolute; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#page-give-classes fieldset #remove-time:hover{
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+#page-give-classes fieldset #remove-time-container{
+  margin-top: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#page-give-classes fieldset #remove-time-container img{
+  height: 2.8rem;
+  width: 2.8rem;
 }
 
 /* ======================================================= */
@@ -87,7 +93,7 @@
 
   background: var(--color-box-footer);
   border-top: 1px solid var(--color-line-in-white);
-  margin-top: 6.4rem;
+  margin-top: 3.2rem;
 }
 
 #page-give-classes main footer p{
@@ -144,21 +150,25 @@
   }
   .schedule-item{
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr 50px;
     column-gap: 1.6rem;
   }
   #page-give-classes #schedule-items .select-block+.input-block,
     #page-give-classes #schedule-items .input-block+.input-block {
     padding-top: 0;
   }
-  #page-give-classes fieldset #remove-time-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 3.2rem;
+
+  /* tirar horário */
+  
+  #page-give-classes fieldset #remove-time-container img{
+    width: 50%;
+    height: 5.6rem;
   }
   
-  #page-give-classes main footer{
+  /* // tirar horário */
+
+
+    #page-give-classes main footer{
     margin-top: 24px; /* default se tirar: 64px (main footer) */
     padding: 40px 64px;
     display: flex;
