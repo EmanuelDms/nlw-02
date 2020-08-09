@@ -1,4 +1,4 @@
-<hr>
+
 <h1 align="center"><p>🚀</p>Proffy - Plataforma de estudos online.
 </h1>
 
@@ -13,34 +13,32 @@ Projeto da Trilha Discovery desenvolvido durante a Next Level Week #02, pela [Ro
  <a href="#instalacao">Instalação</a>
 </p>
 
-<hr>
-<img src="./public/images/capa.svg">
-<hr>
+<hr style="height: 2px; width: 85%; margin: 35px auto 25px auto; background: #D4C2FF; border: 0px;">
+<img src="./public/images/capa.svg" style="border-radius: 10px; margin: 0 auto;">
+<hr style="height: 2px; width: 85%; margin: 25px auto 35px auto; background: #D4C2FF;">
 
 ## 💡 Sobre
 
 A Proffy é uma plataforma de estudos online que une professores à alunos, disponibilizando aulas particulares com professores específicos, além do cadastro de novos professores.
 
-<hr>
 
 ## 🎨 Layout
 
 To access the layout, use [Figma][wiki].
 
-<hr>
 
 ## 🚀 Tecnologias
 
-- [Node.js](https://nodejs.org/)
-- [Express.js](https://expressjs.com/pt-br/)
-- [Nodemon (for Development)](https://nodemon.io/)
-- [Nunjucks](https://mozilla.github.io/nunjucks/)
+- [Node.js](https://nodejs.org/);
+- [Express.js](https://expressjs.com/pt-br/);
+- [Nodemon (for Development)](https://nodemon.io/);
+- [Nunjucks](https://mozilla.github.io/nunjucks/);
+- [CSS](https://www.w3schools.com/css/default.asp);
 
-<hr>
 
 ## :information_source: Instalação
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/) installed on your computer.
+Para utilizar essa aplicação, você precisa do [Git](https://git-scm.com) e [Node.js](https://nodejs.org/en/) instalados.
 
 From your command line:
 
@@ -59,7 +57,6 @@ $ npm run dev
 
 ```
 
-<hr>
 
 ## 👥 Contributing
 
