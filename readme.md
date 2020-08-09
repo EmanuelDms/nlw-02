@@ -13,9 +13,9 @@ Projeto da Trilha Discovery desenvolvido durante a Next Level Week #02, pela [Ro
  <a href="#instalacao">Instalação</a>
 </p>
 
-<hr style="height: 2px; width: 85%; margin: 35px auto 25px auto; background: #D4C2FF; border: 0px;">
-<img src="./public/images/capa.svg" style="border-radius: 10px; margin: 0 auto;">
-<hr style="height: 2px; width: 85%; margin: 25px auto 35px auto; background: #D4C2FF;">
+<hr>
+<img src="./public/images/capa.svg">
+<hr>
 
 ## 💡 Sobre
 
