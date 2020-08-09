@@ -7,10 +7,11 @@ Projeto da Trilha Discovery desenvolvido durante a Next Level Week #02, pela [Ro
 
 
 <p align="center">
- <a href="#sobre">Sobre</a>&nbsp;&nbsp;•&nbsp;
- <a href="#layout">Layout</a>&nbsp;&nbsp;•&nbsp;
- <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;•&nbsp;
- <a href="#instalacao">Instalação</a>
+ <a href="#-sobre">Sobre</a>&nbsp;&nbsp;•&nbsp;
+ <a href="#-layout">Layout</a>&nbsp;&nbsp;•&nbsp;
+ <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;•&nbsp;
+ <a href="#information_source-instalação">Instalação</a>&nbsp;&nbsp;•&nbsp;
+ <a href="#-contributing">Contribua</a>
 </p>
 
 <hr>
@@ -24,7 +25,7 @@ A Proffy é uma plataforma de estudos online que une professores à alunos, disp
 
 ## 🎨 Layout
 
-To access the layout, use [Figma][wiki].
+Para acessar o layout, use o [Figma][wiki].
 
 
 ## 🚀 Tecnologias
@@ -36,11 +37,21 @@ To access the layout, use [Figma][wiki].
 - [CSS](https://www.w3schools.com/css/default.asp);
 
 
+## 📝 Features:
+
+- [x] Cadastro de aulas
+- [x] Listagem de aulas filtradas
+- [x] Cadastro de usuários
+- [ ] Listagem de professores favoritos
+- [ ] Total de conexões realizadas
+- [ ] Login de usuário
+- [ ] Perfil de usuário
+
 ## :information_source: Instalação
 
 Para utilizar essa aplicação, você precisa do [Git](https://git-scm.com) e [Node.js](https://nodejs.org/en/) instalados.
 
-From your command line:
+Do seu terminal (bash):
 
 ```bash
 # Clone this repository
@@ -58,12 +69,12 @@ $ npm run dev
 ```
 
 
-## 👥 Contributing
+## 👥 Contribuindo
 
 1. Fork it (<https://github.com/EmanuelDms/nlw-02/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
+2. Crie sua feature branch (`git checkout -b feature/fooBar`)
+3. Commit suas mudanças (`git commit -am 'Add some fooBar'`)
+4. Push para a branch (`git push origin feature/fooBar`)
+5. Crie um novo Pull Request
 <!-- Markdown link & img dfn's -->
 [wiki]: https://www.figma.com/file/8Gy9iu5A1ZkOi7HJ8EN1u0/Proffy-Web-Copy-from-RocketSeat?node-id=0%3A1
